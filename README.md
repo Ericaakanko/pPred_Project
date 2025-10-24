@@ -7,11 +7,11 @@ It uses multiple trained machine learning models to evaluate **SMILES strings** 
 
 ## Features
 
-- 🔹 Predicts PD-1/PD-L1 inhibitor activity from SMILES strings  
-- 🔹 Supports both **single** and **batch predictions**  
-- 🔹 Visualizes chemical structures and model confidence  
-- 🔹 Includes PCA-based **applicability domain plots**  
-- 🔹 Easy-to-use **web interface** for researchers and students  
+-  Predicts PD-1/PD-L1 inhibitor activity from SMILES strings  
+-  Supports both **single** and **batch predictions**  
+-  Visualizes chemical structures and model confidence  
+-  Includes PCA-based **applicability domain plots**  
+-  Easy-to-use **web interface** for researchers and students  
 
 ---
 
@@ -128,14 +128,14 @@ joblib
 
 ---
 
-## 👩‍🔬 Author
+## Author
 
 **Erica Azechum Akanko**  
-📧 Email: [eakanko15@gmail.com](mailto:eakanko15@gmail.com)
+Email: [eakanko15@gmail.com](mailto:eakanko15@gmail.com)
 
 ---
 
-## ⭐ Acknowledgment
+## Acknowledgment
 
 This project leverages open-source cheminformatics tools and machine learning libraries to advance computational drug discovery for cancer immunotherapy.
 
