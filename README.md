@@ -1,11 +1,11 @@
-# 🧬 pPred: A Machine Learning Tool for PD-1/PD-L1 Inhibitor Prediction
+#  pPred: A Machine Learning Tool for PD-1/PD-L1 Inhibitor Prediction
 
 **pPred** is an interactive web application built with **Streamlit** that predicts the inhibitory activity of compounds targeting the **PD-1/PD-L1 immune checkpoint pathway**.  
 It uses multiple trained machine learning models to evaluate **SMILES strings** and return predictions with associated confidence scores.
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🔹 Predicts PD-1/PD-L1 inhibitor activity from SMILES strings  
 - 🔹 Supports both **single** and **batch predictions**  
@@ -15,7 +15,7 @@ It uses multiple trained machine learning models to evaluate **SMILES strings** 
 
 ---
 
-## 🧠 Underlying Models
+## Underlying Models
 
 The following models are integrated into **pPred**:
 - Random Forest  
@@ -28,7 +28,7 @@ Each model was trained on molecular descriptors (Morgan fingerprints) derived fr
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 ppred/
@@ -44,7 +44,7 @@ ppred/
 
 ---
 
-## ⚙️ Installation and Setup
+## Installation and Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the App
+## Run the App
 
 Launch the Streamlit app locally:
 ```bash
@@ -73,32 +73,32 @@ streamlit run app.py
 ```
 
 Once it starts, open your browser and navigate to:
-👉 [http://localhost:8501](http://localhost:8501)
+ [http://localhost:8501](http://localhost:8501)
 
 ---
 
-## 🧰 Usage Guide
+## Usage Guide
 
-### 🔹 Single Prediction
+### Single Prediction
 1. Navigate to the **Predict** tab.  
 2. Select a model (e.g., Random Forest).  
 3. Enter a valid SMILES string (e.g., `CC(=O)Nc1ccc(O)cc1`).  
 4. View the prediction result, confidence score, and structure visualization.
 
-### 🔹 Batch Prediction
+### Batch Prediction
 1. Upload a `.csv` or `.xlsx` file containing a column named **`SMILES`**.  
 2. The app will generate predictions for all molecules.  
 3. Download the results as a `.csv` file.
 
 ---
 
-## 📊 Applicability Domain
+## Applicability Domain
 
 pPred visualizes the **applicability domain** of each query molecule using **PCA** plots of the descriptor space, helping users understand whether a new compound lies within the model’s reliable prediction region.
 
 ---
 
-## 🧪 Example Input
+## Example Input
 
 | SMILES | Prediction | Confidence |
 |--------|-------------|-------------|
@@ -107,7 +107,7 @@ pPred visualizes the **applicability domain** of each query molecule using **PCA
 
 ---
 
-## 💡 Generate `requirements.txt`
+## Generate `requirements.txt`
 
 If not included, create it using:
 ```bash
@@ -125,14 +125,6 @@ scikit-learn
 pillow
 joblib
 ```
-
----
-
-## 🧩 Future Improvements
-
-- Integration of additional ML and deep learning models  
-- Deployment on cloud platforms (e.g., Streamlit Cloud or Hugging Face Spaces)  
-- Expanded dataset to include more PD-1/PD-L1 inhibitors  
 
 ---
 
