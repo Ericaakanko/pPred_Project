@@ -1,0 +1,15 @@
+name: ppred
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - rdkit
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pillow
+  - pip
+  - pip:
+      - streamlit==1.39.0
+      - joblib
