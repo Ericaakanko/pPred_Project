@@ -65,7 +65,9 @@ pPred_Project/
 │     └─ bioactivity_data_descriptors_morgan.csv
 │
 ├─ notebooks/
-│  └─ pPred.ipynb              # Jupyter notebook for model development
+│  └─ pPred_classifier.ipynb
+  
+            # Jupyter notebook for model development
 │
 ├─ scripts/                    # Utility scripts (training, evaluation, etc.)
 │
