@@ -37,50 +37,54 @@ The tool is designed to help students, chemists, and researchers quickly evaluat
 - **Open and Reproducible**
   - All artifacts (models, data, scripts, notebook) are organized for transparency and reuse.
 
----
+-
 
 ## Project Structure
-
 ```bash
-pPred_Project/
-├─ app/
-│  ├─ app.py                   # Streamlit app entry point
-│  └─ assets/
-│     └─ ppred_logo.png        # Logo used in the UI
-│
-├─ models/                     # Serialized machine learning models
-│  ├─ rf.pkl
-│  ├─ knn.pkl
-│  ├─ adaboost.pkl
-│  ├─ et.pkl
-│  ├─ gb.pkl
-│  └─ selection.pkl
-│
-├─ artifacts/                  # Derived data used for visualization
-│  ├─ X_train.pkl
-│  └─ X_test.pkl
-│
-├─ data/
-│  └─ raw/
-│     └─ bioactivity_data_descriptors_morgan.csv
-│
-├─ notebooks/
-│  └─ pPred_classifier.ipynb
-  
-            # Jupyter notebook for model development
-│
-├─ scripts/                    # Utility scripts (training, evaluation, etc.)
-│
-├─ requirements.txt
-├─ environment.yml
-├─ README.md
-└─ LICENSE
+
+├── LICENSE
+├── README.md
+├── app
+│   ├── __init__.py
+│   ├── app.py
+│   └── assets
+│       └── ppred_logo.png
+├── artifacts
+│   ├── X_test.pkl
+│   └── X_train.pkl
+├── data
+│   └── raw
+│       └── bioactivity_data_descriptors_morgan.csv
+├── environment.yml
+├── models
+│   ├── Regressors
+│   │   ├── adaboost.pkl
+│   │   ├── et.pkl
+│   │   ├── gb.pkl
+│   │   ├── knn.pkl
+│   │   ├── lr.pkl
+│   │   ├── rf.pkl
+│   │   ├── svm.pkl
+│   │   └── variance_threshold.pkl
+│   └── classifiers
+│       ├── adaboost.pkl
+│       ├── et.pkl
+│       ├── gb.pkl
+│       ├── knn.pkl
+│       ├── rf.pkl
+│       └── selection.pkl
+├── notebooks
+│   ├── pPred_classifier.ipynb
+│   └── pPred_regressor.ipynb
+├── requirements.txt
+└── src
+    └── ppred
+        └── __init__.py
 ```
 
 ---
 
 ## Installation and Setup
-
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/Ericaakanko/pPred_Project.git
