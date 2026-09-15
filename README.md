@@ -149,7 +149,7 @@ pPred/
 ## Developer
 
 **Erica Akanko**
-Email: eakank001@gmail.com
+Email: eakank15@gmail.com
 
 ---
 
