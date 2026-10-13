@@ -223,6 +223,7 @@ The descriptor set includes:
 
 Feature selection was performed using `VarianceThreshold` to remove constant features.
 
+
 ---
 
 ## Best Models
@@ -236,7 +237,12 @@ Feature selection was performed using `VarianceThreshold` to remove constant fea
 
 ## Validation
 
+
 The prediction pipelines were evaluated using multiple validation strategies:
+
+**Erica Akanko**  
+*eakanko15@gmail.com*
+
 
 * **Scaffold-based train/test split** to reduce the risk of scaffold leakage.
 * **10-fold cross-validation** across candidate models.
