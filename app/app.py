@@ -6,7 +6,7 @@ machine learning models trained on ChEMBL bioactivity data.
 Supports both classification (Active/Inactive) and regression (pIC50) pipelines.
 
 Developer: Erica Akanko
-Email: eakank001@gmail.com
+Email: eakanko15@gmail.com
 """
 
 from pathlib import Path
